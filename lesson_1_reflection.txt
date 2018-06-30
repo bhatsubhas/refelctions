@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+Diff helps identify changes we have done since the modification of the working version 
+of the file. This way we can easily see what are the changes we did for the working 
+version ot the code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+Keeping history helps in reverting to the working version of the code if we make any 
+changes to the code, which will break the functionality.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+Pros:
+1. Manual commit gives us control to commit working code and it avoids unncessary commit of 
+draft changes which might be changed in the later point of time.
+2. It reduces no. of commit and we can give messages like why we are commiting this code.
+Cons:
+1. If we forget to commit then we might lose our changes as we git will not commit automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is designed for the controling version of the code changes and usually this involves changes
+in the multiple program files. This also help us track all the related changes in one commit.
+
+How can you use the commands git log and git diff to view the history of files?
+
+Log and diff can be used to track changes done to the files and see how many lines were added or deleted.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+Version control always provides a way to revert to the older version of the code by simply mentioning
+the id.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like use git to develop my personal project and track changes I do on day to day basis.
+This will help me do major changes without having to worry about losing working changes.
