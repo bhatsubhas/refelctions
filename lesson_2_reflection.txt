@@ -10,14 +10,24 @@ made based on the logical changes to the files.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+Using git add I can add only those files that will be part of current logical change.
+This will make sure only staged files are committed to the repository.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are helpful when we are developing experimental features or new features without
+impacting the current master branch. Changes done in the branches are not reflected in the master.
+
 
 How do the diagrams help you visualize the branch structure?
+It helps in understanding changes done in the branch since it was created from master.
+This will be useful while merging the changes with master.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+By merging two branches we will be able to merge the changes done in both branches using
+single branch and will be able to track the commits without losing the track. The diagramatic
+representation will help in visualizing the commits that will be tracked from both the branches
+after the merge.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
