@@ -31,3 +31,9 @@ representation will help in visualizing the commits that will be tracked from bo
 after the merge.
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+Pro:
+1. No need to edit files manually, git will take care of merging
+2. Quick and simple
+Cons:
+1. Automatic merging won't be able to merge in case of conflicts
+2. Might lead to merged code which won't compile or might not work as expected.
