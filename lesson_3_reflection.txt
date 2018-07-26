@@ -10,5 +10,5 @@ Branches are used to create a new feature or experimental changes without touchi
 branches can be merged with master using git merge command.
 
 What is the benifits of having copy of the last known state of the remote stored locally?
-This is make sure that you remote change in your local machine before you go offline and don't have
+This makes sure that you have remote changes in your local machine before you go offline and don't have
 access to the remote. And local changes can be merged with remote changes without internet connection.
