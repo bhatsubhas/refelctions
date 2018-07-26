@@ -8,3 +8,7 @@ to create your own copy for modification without touching the original repositor
 Clones are used to make your own copy of the repository on the local machine and push changes to the main repository.
 Branches are used to create a new feature or experimental changes without touching the master branch. Changes done on the 
 branches can be merged with master using git merge command.
+
+What is the benifits of having copy of the last known state of the remote stored locally?
+This is make sure that you remote change in your local machine before you go offline and don't have
+access to the remote. And local changes can be merged with remote changes without internet connection.
