@@ -16,3 +16,9 @@ access to the remote. And local changes can be merged with remote changes withou
 How would you collaborate without using Git or Github? What would be easier, and what would be harder?
 Files will be edited independently and then shared via e-mail, all the conflicts will be resolved manually.
 It will become harder to collaborate as number of contributors increase and number of files to collaborate increases. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When changes are like adding major feature or an experimental feature which affects others who are also working on same set of files
+then it is better to branch-out and work independently. This will reduce time spent on resolving conflicts each time when files are committed.
+When you are working on files which you are sure that no one else will be working then it is better to work directly on master branch. This will 
+reduce unnecessary merging of code at later point of time.
