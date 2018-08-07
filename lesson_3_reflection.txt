@@ -12,3 +12,7 @@ branches can be merged with master using git merge command.
 What is the benifits of having copy of the last known state of the remote stored locally?
 This makes sure that you have remote changes in your local machine before you go offline and don't have
 access to the remote. And local changes can be merged with remote changes without internet connection.
+
+How would you collaborate without using Git or Github? What would be easier, and what would be harder?
+Files will be edited independently and then shared via e-mail, all the conflicts will be resolved manually.
+It will become harder to collaborate as number of contributors increase and number of files to collaborate increases. 
